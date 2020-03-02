@@ -1,0 +1,249 @@
+.bgimg{
+    background-image: url(../../../images/body.png);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 590px;
+    backface-visibility: hidden;
+ 
+}
+#collapsenavbar li a{
+    padding: 16px 25px;
+}
+
+#collapsenavbar li a:hover{
+    padding: 10px 25px;
+    margin: 5px 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.textheader{
+    padding-top: 150px;
+    box-sizing: border-box;
+    text-shadow: 3px 3px 2px purple;
+    letter-spacing: 10px;
+ 
+}
+
+.textheader h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+    }
+.textheader h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    color: white;
+    padding: 10px;
+    font-weight: 800;
+}
+.btns{
+    margin-top: 25px;
+    border: 2px solid orange ;
+    box-shadow: 3px 3px 5px gray;
+    color: white !important;
+    text-transform: none;
+
+}
+.btns:hover{
+    margin-top: 25px;
+    border: 2px solid orange ;
+    box-shadow: 3px 3px 5px gray;
+    color: white !important;
+    text-decoration: none !important;
+
+}
+
+/* ........................Our Services................... */
+.ourservices{
+    margin: 70px ;
+
+}
+
+.rowsetting{
+    margin: 60px 0px;
+}
+.ourservices h1{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-weight: 700;
+}
+.rowsetting h2{
+    font-weight: 600;
+    padding-top: 15px;
+
+}
+.imgsetting{
+    background-color: orange;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* margin-top: 200px; */
+}
+.imgsetting img{
+    margin-top: 18px;
+}
+.rowsetting p{
+    padding: 15px;
+    color: #7a6c6c;
+}
+
+/* =========================Products=============================== */
+
+.ourproducts{
+    margin: 30px ;
+
+}
+
+.ourproducts h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.cardimg{
+    width: 100%;
+    height: 300px;
+}
+.card-badge{
+    font-size: medium!important;
+
+    /* height: 20px; */
+}
+.card-badge:hover{
+    color: white!important;
+    background-color: gray!important;
+}
+.cards{
+    box-shadow: 10px 10px 5px gray;
+    margin-top: 15px;
+}
+
+/* ========================Sign In ============================ */
+.signin{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+.signin .container{
+text-align: center;
+background-color: rgb(231, 253, 199);
+border:3px solid orange ;
+box-shadow: 8px 8px 5px rgb(253, 218, 153);
+padding: 0px 15px 15px 15px;
+}
+
+.signin h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.signin input {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 3px gray;
+}
+.signin p.or{
+    margin-top: 15px;
+    font-size: 25px;
+}
+.signin p.text{
+    color: rgb(202, 166, 99);
+}
+.form-check{
+    padding-left: 15px;
+    margin-left: 150px;
+
+}
+.form-checks input{
+    background-color: gray;
+    box-shadow: none;
+    padding-left: 150px;
+    width: 15px;
+    margin-left: 15px;
+}
+
+/* =================Contact Us======================= */
+.contactus{
+    background-color: rgb(223, 203, 203);
+}
+
+.contact{
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    /* background-color: darkgray  ; */
+}
+.frame{
+    position: absolute;
+    box-shadow: 5px 9px 5px gray;
+    top: 192rem;
+    right: 85px;
+    margin-bottom: 55px;
+}
+
+
+.contact h1{
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.contact img{
+    margin-left: 8px;
+    width: 35px;
+}
+.contact h3{
+    margin-top: 40px;
+    display: inline;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.contact p{
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 65px;
+}
+
+.footer li{
+    list-style: none;
+    width: 60px;
+    height:  60px;
+        display: inline-block;
+        border: 2px solid teal;
+        border-radius: 50px;
+        /* box-shadow: 5px 5px 15px 5px rgb(9, 196, 196); */
+        margin: 10px 50px;
+        text-align: center;
+        line-height: 50px;
+    }
+.footer li:hover{
+    list-style: none;
+    width: 70px;
+    height:  70px;
+        display: inline-block;
+        border: 2px solid rgb(3, 99, 99);
+        border-radius: 50px;
+        box-shadow: 5px 5px 15px 5px rgb(9, 196, 196);
+        margin: 5px 45px;
+        text-align: center;
+        line-height: 60px;
+        transition: 0.3s;
+    }
+
+.footer{
+    padding: 10px;
+background-color: teal;
+line-height: 000px;
+color: rgb(182, 160, 160);
+bottom: auto;
+text-align: right;
+}
+.find{
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
